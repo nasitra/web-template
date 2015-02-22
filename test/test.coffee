@@ -1,1 +1,1 @@
-assert = this.assert || require('assert')
+assert = require('assert')
