@@ -16,6 +16,5 @@
     "coffee-script": "*",
     "mocha": "*",
     "uglify-js": "*"
-  },
-  "license": "MIT"
+  }
 }
