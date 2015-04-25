@@ -16,5 +16,6 @@
     "coffee-script": "*",
     "mocha": "*",
     "uglify-js": "*"
-  }
+  },
+  "private": true
 }
