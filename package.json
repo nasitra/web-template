@@ -2,17 +2,12 @@
   "name": "",
   "version": "",
   "scripts": {
-    "build": "npm run cleancss; npm run uglify",
-    "cleancss": "cat css/*.css | cleancss -o build/app.min.css",
     "start": "browser-sync start --files='index.html, css/*.css, js/*.js' --server",
-    "test": "browser-sync start --files='test/test.html, css/*.css, js/*.js, test/*.js' --server --startPath='test/test.html'",
-    "uglify": "uglifyjs js/app.js -o build/app.min.js -c -m"
+    "test": "browser-sync start --files='test/test.html, css/*.css, js/*.js, test/*.js' --server --startPath='test/test.html'"
   },
   "devDependencies": {
     "browser-sync": "*",
-    "clean-css": "*",
-    "mocha": "*",
-    "uglify-js": "*"
+    "mocha": "*"
   },
   "private": true
 }
