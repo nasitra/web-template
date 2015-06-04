@@ -2,7 +2,7 @@
   "name": "",
   "version": "",
   "scripts": {
-    "start": "browser-sync start --files='index.html, css/*.css, js/*.js' --server",
+    "start": "browser-sync start --files='index.html, css/**/*.css, js/**/*.js' --server",
     "test": "mocha"
   },
   "devDependencies": {
