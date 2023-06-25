@@ -1,11 +1,8 @@
 {
-  "name": "",
-  "version": "",
   "scripts": {
     "test": "mocha"
   },
   "devDependencies": {
     "mocha": "*"
-  },
-  "private": true
+  }
 }
